@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.homeButtons{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: 0px auto;
+}
+
+a{
+  text-decoration: none;
+  color: #282c34;
+}
+
+.formView{
+  justify-content: center;
+}
+
+.inputText{
+  width: 240px;
+}
+
+.messages{
+  width: fit-content;
+  margin: 10px auto;
+}

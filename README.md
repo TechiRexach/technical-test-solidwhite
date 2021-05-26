@@ -4,17 +4,17 @@
 
 ### 1. Table Component:
 
-First the component recieves by his props the first state (```useState```), which is the provided array as example.
+First the component receives by his props the first state (```useState```), which is the provided array as example.
 
 It renders a table with all the data using the map method.
 
-We define a ```useEffect``` which it will re-renders the data everytime they changes. This is why we pass an array as the optional second argument as array.
+We define a ```useEffect``` which it will re-renders the data every time they changes. This is why we pass an array as the optional second argument as array.
 
 ### 2. Input Component:
 
 First we define three ```useState```, each one, as an empty string.
 
-The first one (```input```), will recieves the text writted by the user when the button is clicked.
+The first one (```input```), will receives the text written by the user when the button is clicked.
 
 The other two (```wellDone```, ```error```) will be the ones which displays the result about if the user has written the correct word or not.
 
